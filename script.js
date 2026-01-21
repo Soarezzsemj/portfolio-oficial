@@ -97,9 +97,9 @@ const projects = {
     tech: "Swift • Node.js • API REST",
     link: "https://github.com/Soarezzsemj/Minha-Cripto",
     images: [
-      { src: "../MinhaCripto/cel2.png", alt: "Tela 2" },
-      { src: "../MinhaCripto/cel3.png", alt: "Tela 3" },
-      { src: "../MinhaCripto/cel4.png", alt: "Tela 4" }
+      { src: "MinhaCripto/cel2.png", alt: "Tela 2" },
+      { src: "MinhaCripto/cel3.png", alt: "Tela 3" },
+      { src: "MinhaCripto/cel4.png", alt: "Tela 4" }
     ]
   },
   resume: {
@@ -109,8 +109,8 @@ const projects = {
     link: "https://github.com/Soarezzsemj/Resumo-IA",
     liveLink: "https://resumo-ia.vercel.app/",
     images: [
-      { src: "../ResumeAi/Resume2.png", alt: "Tela 1" },
-      { src: "../ResumeAi/Resume3.png", alt: "Tela 2" }
+      { src: "ResumeAi/Resume2.png", alt: "Tela 1" },
+      { src: "ResumeAi/Resume3.png", alt: "Tela 2" }
     ]
   }
 };
