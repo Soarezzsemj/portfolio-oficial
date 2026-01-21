@@ -45,6 +45,21 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   min-height: 100vh;
   transition: background 0.3s ease, color 0.3s ease;
+  /* Fix para iOS - remove bordas brancas */
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+}
+
+/* Fix adicional para iOS */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at top, var(--gradient-start), var(--gradient-end));
+  z-index: -1;
 }
 
 /* =========================

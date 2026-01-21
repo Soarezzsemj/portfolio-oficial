@@ -38,6 +38,12 @@ const html = document.documentElement;
 function updateThemeIcon() {
   const currentTheme = html.dataset.theme;
   toggle.textContent = currentTheme === "dark" ? "🌙" : "☀️";
+  
+  // Atualiza meta theme-color para iOS
+  const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+  if (themeColorMeta) {
+    themeColorMeta.content = currentTheme === "dark" ? "#0b0f1a" : "#f0f0f3";
+  }
 }
 
 // Toggle do tema
